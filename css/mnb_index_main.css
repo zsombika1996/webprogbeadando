@@ -1,0 +1,7 @@
+table#arfolyamok {
+    border-collapse: collapse;
+}
+table#arfolyamok td, table#arfolyamok th  {
+    border: 1px solid #ccc;
+    padding: 4px;
+}

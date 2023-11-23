@@ -84,7 +84,9 @@ INSERT INTO `menu` (`url`, `nev`, `szulo`, `jogosultsag`, `sorrend`) VALUES
 ('kiegeszitesek', 'Kiegészítések', 'elerhetoseg', '011', 50),
 ('kilepes', 'Kilépés', '', '011', 70),
 ('hirek', 'Hírek', '', '111', 20),
-('nyitolap', 'Nyitólap', '', '111', 10);
+('nyitolap', 'Nyitólap', '', '111', 10),
+('mnb','MNB Valuta','','011',90);
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
