@@ -1,6 +1,5 @@
 <?php
 
-//alkalmaz�s gy�k�r k�nyvt�ra a szerveren
 define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/webprogbeadando/');
 
 //URL c�m az alkalmaz�s gy�ker�hez

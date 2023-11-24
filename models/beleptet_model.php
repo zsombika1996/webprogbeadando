@@ -13,8 +13,6 @@ class Beleptet_Model {
 							   ':jelszo' => sha1($vars['password'])
 						   ));
 			$felhasznalo = $stmt->fetchAll(PDO::FETCH_ASSOC);
-			//Ellenőrizzük, hogy a megadott adatok megtalálhatóak-e az adatbázisban, hogyha nem vagy több felhasználó is azonos néven található, akkor hibaüzenetet ad vissza.
-			///Amennyiben viszont sikeres volt a bejelentkezés, a felhasználó adatait elmentjük  változókba.
 			switch (count($felhasznalo)) {
 				case 0:
 					$retData['eredmeny'] = "ERROR";
